@@ -8,7 +8,6 @@ class Game extends React.Component {
     this.state = {
       squares: Array(9).fill(null),
       playerTurn: 'X',
-      winner: null
     };
   }
 
